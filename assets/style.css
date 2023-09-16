@@ -11,6 +11,26 @@
 
 :root{
     --bg-color:#594E14;
-    --text-color: black;
+    --text-color: white;
     --main-color:#F2CB05;
+    --shadow-color: rgba(0,0,0,.2);
+}
+
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    text-color: var(--text-color);
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-color);
 }
