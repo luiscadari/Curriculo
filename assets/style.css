@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: roboto;
+}
+
+:root{
+    --bg-color:#594E14;
+    --text-color: black;
+    --main-color:#F2CB05;
+}
