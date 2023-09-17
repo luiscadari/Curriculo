@@ -9,10 +9,11 @@
 }
 
 :root{
-    --bg-color:#594E14;
-    --text-color: white;
-    --main-color:#F2CB05;
-    --shadow-color: rgba(0,0,0,.2);
+    --amarelo-claro: #F2CB05;
+    --amarelo: #F2B705;
+    --laranja: #F29F05;
+    --marrom: #A66D03;
+    --cinza-background: #D9D4CC;
 }
 
 html{
@@ -22,7 +23,7 @@ html{
 
 body{
     background-color: #D9D4CC;
-    color: var(--text-color);
+    color: white;
 }
 
 .header{
@@ -129,6 +130,27 @@ section{
     background: #F2CB05;
 }
 
+.inicio .profissao-container{
+    position:absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 768px;
+    background: red;
+    overflow: hidden;
+    pointer-events: none;    
+}
+
+.inicio .profissao-container .profissao-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 768px;
+    background: var(--amarelo-claro);
+    border-radius: 50%;
+}
 /* 
 .navbar a.active::before{
     content:'';
