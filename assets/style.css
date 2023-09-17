@@ -80,6 +80,7 @@ section{
 .inicio-conteudo h1{
     font-size: 5.6rem;
     font-weight: 500;
+    margin-bottom: .3rem;
 }
 
 .inicio-conteudo p{
@@ -94,12 +95,40 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background:transparent;
-    border: .2rem solid #F2CB05
-
+    border: .2rem solid #F2CB05;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #A66D03;
+    margin: 2rem 1rem 1.5rem 0;
+    transition: 1s ease;
 }
+
+.inicio-conteudo .redes-sociais a:hover{
+    background-color: #F2CB05;
+    color: white;
+}
+
+.pdf{
+    display: inline-flex;
+    padding: .3rem .5rem;
+    background: #F2B705;
+    border-radius: .5rem;
+    border: .2rem solid transparent;
+    box-shadow: 0 .2rem .5rem gray;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: .1rem ;
+    font-weight: 600;
+    transition: 1s ease;
+}
+
+.pdf:hover{
+    background: #F2CB05;
+}
+
 /* 
 .navbar a.active::before{
     content:'';
