@@ -163,7 +163,12 @@ section{
     color: var(--amarelo);
     transform: rotate(calc(360deg / 2 * var(--i)));
     transform-origin: 384px;
-    padding: 100% 100% 100% 0%;
+    padding: 13px 0;
+    background: var(--cinza-background);
+}
+
+.home .profissao-box .profissao:nth-child(1) i{
+    margin-right: 15px;
 }
 
 .inicio .profissao i{
@@ -177,8 +182,8 @@ section{
 }
 
 .inicio .profissao-box .circle{
-    width:  700px;
-    height: 700px;
+    width:  568px;
+    height: 568px;
     border: 3px solid var(--amarelo-claro);
     border-radius: 50%;
 }
