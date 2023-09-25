@@ -171,6 +171,12 @@ section{
     margin-right: 15px;
 }
 
+
+.home .profissao-box .profissao:nth-child(2),
+.home .profissao-box .profissao:nth-child(4){
+    padding-bottom: 20px;
+}
+
 .inicio .profissao i{
     font-size: 3.5rem;
 }
@@ -205,4 +211,16 @@ section{
     color: white;
     cursor: pointer;
     margin-right: 7rem;
+}
+
+.inicio .profissao-container .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 384px solid var(--amarelo-claro);
+    border-right: 384px solid var(--amarelo-claro);
+    border-bottom: 384px solid var(--amarelo-claro);
+    border-left: 384px solid transparent;
 }
